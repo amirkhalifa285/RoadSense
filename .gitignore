@@ -1,0 +1,44 @@
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+lib/
+.vscode/
+
+# Build artifacts
+*.hex
+*.bin
+*.elf
+*.map
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# SUMO/OMNeT++
+*.log
+*.sca
+*.vec
+results/
+
+# ML Models
+*.tflite
+*.h5
+*.pb
+
+# Secrets
+config/secrets.json
+certificates/
+*.pem
+*.key
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor swapfiles
+*.swp
+*.swo
